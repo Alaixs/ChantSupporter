@@ -1,4 +1,4 @@
-/*version 2.4.b*/
+/*version 2.6.b*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 *{
@@ -10,22 +10,37 @@ background: color #f7f7f7; ;
 html, body {
   height: 100%;
   margin: 0px;
-
-  
 }
 
+  h1 
+  {  font-size: 8vw; 
+        font-family: inter;
+        font-weight: bold;}
 
-h1{
-font-size: 4vw;
-margin-top: 10%;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
+  .linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #181833 20%, #5693c3 40%, #5693c3 60%, #181833 80%);
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 4s linear infinite;
+            animation: shine 4s linear infinite;
+  }
+  @-webkit-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 
 
-
-}
 
 .square1{
   width: 90vw;
@@ -96,5 +111,15 @@ font-family: Arial, Helvetica, sans-serif;
   margin-left: auto;
   margin-right: auto;
   background: #F7F7F7;
+  
+}
+
+.rgb-text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  color: white;
   
 }

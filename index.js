@@ -1,4 +1,4 @@
-//version 2.4.b
+//version 2.6.b
 function playAudio(url) {
   new Audio(url).play();
 }
