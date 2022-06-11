@@ -1,4 +1,4 @@
-                                                       Chant des supporter/Ultra !
+                            Chant des supporter/Ultra !   Version beta (dev en cours)
 
-[![tag - v1.4.2](https://img.shields.io/badge/tag-v1.4.2-0475B6)](https://)
+[![Version - 1.8.b](https://img.shields.io/badge/Version-1.8.b-2c75ff)](https://)
 
