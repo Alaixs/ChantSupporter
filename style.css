@@ -23,7 +23,6 @@ html, body {
     background: linear-gradient(to right, #363b75 20%, #78a9cf 40%, #5693c3 60%, #363b75 80%);
     background-size: 200% auto;
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: shine 2.5s linear infinite;
@@ -73,6 +72,24 @@ html, body {
   padding-left: 5%;
    
 }
+#ppb1{
+  font-size: 4vw;
+  cursor: pointer;
+  color: white;
+  
+}
+#ppb2{
+  font-size: 4vw;
+  cursor: pointer;
+  color: white;
+  
+}
+#ppb3{
+  font-size: 4vw;
+  cursor: pointer;
+  color: white;
+  
+}
 
 .audioB {
   
@@ -89,7 +106,7 @@ html, body {
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   color: white;
-  cursor: pointer;
+  
 
 }
 
