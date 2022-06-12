@@ -1,24 +1,26 @@
-/*version 3.3*/
+/*version 3.5*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 *{
 
-background: color #f7f7f7; ;
+  font-family: 'Inter', sans-serif;
+  
 
 }
 
 html, body {
   height: 100%;
   margin: 0px;
+  background-color: #f7f7f7;
 }
 
   h1 
   {  font-size: 8vw; 
-        font-family: inter;
-        font-weight: bold;}
+        font-weight: bold;
+        text-align: center;}
 
   .linear-wipe {
-    text-align: center;
+    
     
     background: linear-gradient(to right, #363b75 20%, #78a9cf 40%, #5693c3 60%, #363b75 80%);
     background-size: 200% auto;
@@ -38,108 +40,72 @@ html, body {
       background-position: 200% center;
     }
   }
+  
 
 
+   .square1, .square2, .square3 {
+    width: 90vw;
+    height: 63vw;
+    border-radius: 2vw;
+    margin: 0 auto;
+    background: white;
+  
+  }
 
-.square1{
-  width: 90vw;
-  height: 63vw;
-  border-radius: 2vw;
-  margin-left: auto;
-  margin-right: auto;
-  background: #F7F7F7;
+  .square3, .square2 {
+  margin-top: 10%;
 
 }
 
 .content{
   font-size: 5vw; 
   font-weight: bold;
-  margin-top: 5%;
-  margin-left: 5%;
+  margin: 5% 0 0 5%;
   position: absolute;
-  color: #252525;
-  font-family: 'Inter', sans-serif;
+  color: gray;
   
 }
 
 .text {
   font-size: 4vw;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Inter', sans-serif;
-  color: #AEAEAE;
-  padding-top: 15%;
-  padding-left: 5%;
+  margin: auto;
+  color: black;
+  padding: 15% 0 0 5%
    
 }
-#ppb1{
+#ppb2 #ppb3 #ppb1{
   font-size: 4vw;
   cursor: pointer;
   color: white;
 
-  
-}
-#ppb2{
-  font-size: 4vw;
-  cursor: pointer;
-  color: white;
-  
-}
-#ppb3{
-  font-size: 4vw;
-  cursor: pointer;
-  color: white;
-  
 }
 
 .audioB {
   
   width: 90%;
   height: 15%;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5% auto auto;
   background: #252122;
   border-radius: 2vw;
   text-align: center;
   padding-top: 5%;
   font-size: 4vw;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
   color: white;
   
 
 }
+footer {
 
-.square2{
-  width: 90vw;
-  height: 63vw;
-  border-radius: 2vw;
-  margin-top: 15%;
-  margin-left: auto;
-  margin-right: auto;
-  background: #F7F7F7;
+padding: 5%;
+  text-align: center;
   
 }
 
-
-.square3{
-  width: 90vw;
-  height: 63vw;
-  border-radius: 2vw;
-  margin-top: 15%;
-  margin-left: auto;
-  margin-right: auto;
-  background: #F7F7F7;
-  
-}
 
 .rgb-text {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
+
   font-size: 2vw;
   color: white;
-  
+
 }

@@ -1,4 +1,4 @@
-//version 3.3
+//version 3.5
 window.onload = () => {
 	let rgbText, nodes, hues;
 	
