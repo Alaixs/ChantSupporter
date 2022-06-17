@@ -1,4 +1,4 @@
-/*version 3.8*/
+/*version 3.9*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 *{
@@ -58,7 +58,7 @@ html, body {
   }
 
   .square4 {
-    height: 116vw;
+    height: 121vw;
 
   }
 
@@ -77,13 +77,13 @@ html, body {
       
   .square7 {
 
-    height: 50vw;
+    height: 46vw;
 
   }
   
   .square8 {
 
-    height: 60vw;
+    height: 57vw;
 
   }
 
