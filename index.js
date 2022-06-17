@@ -1,4 +1,4 @@
-//version 3.6.b
+//version 3.7.b
 window.onload = () => {
 	let rgbText, nodes, hues;
 	
@@ -94,7 +94,7 @@ audio.onended = function() {
 };
 
 //Chant4
-let audio3 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio3.mp3");
+let audio3 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio4.mp3");
 
 $('#ppb4').on("click",function(){
   if($(this).hasClass('fa-play'))
@@ -117,7 +117,7 @@ audio.onended = function() {
 };
 
 //Chant5
-let audio4 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio3.mp3");
+let audio4 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio5.mp3");
 
 $('#ppb5').on("click",function(){
   if($(this).hasClass('fa-play'))
@@ -140,7 +140,7 @@ audio.onended = function() {
 };
 
 //Chant6
-let audio5 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio3.mp3");
+let audio5 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio6.mp3");
 
 $('#ppb6').on("click",function(){
   if($(this).hasClass('fa-play'))
@@ -163,7 +163,7 @@ audio.onended = function() {
 };
 
 //Chant7
-let audio6 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio3.mp3");
+let audio6 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio7.mp3");
 
 $('#ppb7').on("click",function(){
   if($(this).hasClass('fa-play'))
@@ -187,7 +187,7 @@ audio.onended = function() {
 
 //Chant8
 
-let audio7 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio3.mp3");
+let audio7 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio8.mp3");
 
 $('#ppb8').on("click",function(){
   if($(this).hasClass('fa-play'))
@@ -211,7 +211,7 @@ audio.onended = function() {
 
 //Chant9
 
-let audio8 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio3.mp3");
+let audio8 = new Audio("https://github.com/Alaixs/ChantSupporter/raw/beta/Audio9.mp3");
 
 $('#ppb9').on("click",function(){
   if($(this).hasClass('fa-play'))
