@@ -1,4 +1,4 @@
-/*version 3.5*/
+/*version 3.6.b*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 *{
@@ -52,7 +52,52 @@ html, body {
   
   }
 
-  .square3, .square2 {
+  .square4 {
+    width: 90vw;
+    height: 116vw;
+    border-radius: 2vw;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+  }
+
+  
+  .square5 {
+    width: 90vw;
+    height: 78vw;
+    border-radius: 2vw;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+  }
+    
+  .square6 {
+    width: 90vw;
+    height: 80vw;
+    border-radius: 2vw;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+  }
+      
+  .square7 {
+    width: 90vw;
+    height: 45vw;
+    border-radius: 2vw;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+  }
+
+  .square2, .square3{
   margin-top: 10%;
 
 }
@@ -73,8 +118,8 @@ html, body {
   padding: 15% 0 0 5%
    
 }
-#ppb2 #ppb3 #ppb1{
-  font-size: 4vw;
+#ppb1 #ppb2 #ppb3 #ppb4 #ppb5 {
+  font-size: 5vw;
   cursor: pointer;
   color: white;
 
@@ -95,6 +140,72 @@ html, body {
   
 
 }
+
+.audioB2 {
+  
+  width: 90%;
+  height: 8.2%;
+  margin: 5% auto auto;
+  background: #252122;
+  border-radius: 2vw;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  
+
+}
+
+.audioB3 {
+  
+  width: 90%;
+  height: 12.1%;
+  margin: 5% auto auto;
+  background: #252122;
+  border-radius: 2vw;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  
+
+}
+
+
+.audioB4 {
+  
+  width: 90%;
+  height: 11.8%;
+  margin: 5% auto auto;
+  background: #252122;
+  border-radius: 2vw;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  
+
+}
+
+.audioB5 {
+  
+  width: 90%;
+  height: 21%;
+  margin: 5% auto auto;
+  background: #252122;
+  border-radius: 2vw;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  
+
+}
+
 footer {
 
 padding: 5%;
